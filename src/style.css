@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -29,7 +31,6 @@ nav {
 }
 
 #home {
-    position: relative;
     background: url(./images/restaurant.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 85vh;
@@ -55,6 +56,86 @@ nav {
     }
 }
 
+#menu{
+    background-color: #1f1f1f;
+    padding: 3rem;
+    & > h2{
+        margin-top: 0;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 3rem;
+    }
+    & > div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+        padding-left: 15rem;
+        padding-right: 15rem;
+
+    }
+    & .recipe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 2rem;
+        overflow: hidden;
+        background-color: #333333;
+        padding-bottom: 2rem;
+
+        & > h2{
+            font-size: 2rem;
+            margin-bottom: 0;
+            text-align: center;
+        }
+        > p{
+            font-size: 0.8rem;
+            text-align: center;
+            text-wrap: balance;
+        }
+
+        & img{
+            /* width: 15rem; */
+            width: 100%;
+            object-fit: cover;
+            height: 20rem;
+        }
+
+    }
+}
 
 
 
+
+#contact{
+    background-color: #333333;
+    /* height: 25svh; */
+    & > div{
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+        gap: 5rem;
+    }
+    & > div > div{
+        gap: 1rem;
+    }
+    & div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    & h2{
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Caprasimo', serif;
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    & img{
+        width: 2.5rem;
+    }
+    
+}
