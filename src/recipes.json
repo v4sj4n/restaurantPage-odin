@@ -1,0 +1,24 @@
+{
+  "recipes": [
+    {
+      "title": "Chicken Piccata",
+      "description": "Classic Italian dish that is made with chicken cutlets that are dredged in flour, egg, and breadcrumbs, then pan-fried until golden brown and crispy. The chicken is then cooked in a sauce made with white wine, lemon juice, capers, and butter. This dish is both flavorful and elegant, and it would be a great choice for a special occasion.",
+      "imageSrc": "./images/recipes/chickenPiccata.jpg"
+    },
+    {
+      "title": "Steak Diane",
+      "description": "Classic dish that is made with beef tenderloin that is sliced into thin strips and cooked in a sauce made with butter, shallots, mushrooms, brandy, and cream. This dish is rich and decadent, and it would be perfect for a romantic dinner.",
+      "imageSrc": "./images/recipes/steakDiane.jpg"
+    },
+    {
+      "title": "Seared Scallops with Lemon and Capers",
+      "description": "Perfect for a summer meal. The scallops are seared until golden brown and crispy on the outside, and they are then cooked in a sauce made with lemon juice, capers, and butter. This dish is easy to make, but it looks and tastes impressive.",
+      "imageSrc": "./images/recipes/searedScallops.jpg"
+    },
+    {
+      "title": "Pasta with Roasted Vegetables",
+      "description": "A hearty and satisfying dish that is perfect for a weeknight meal. The pasta is tossed with roasted vegetables like broccoli, zucchini, and carrots, and it is then topped with a simple sauce made with olive oil, garlic, and Parmesan cheese. This dish is easy to make, but it is full of flavor.",
+      "imageSrc": "./images/recipes/pastaRoastedVegetables.jpg"
+    }
+  ]
+}

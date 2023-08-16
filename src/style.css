@@ -1,5 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Caprasimo&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-  }
-  
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #1f1f1f;
+    height: 15svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    & a {
+        font-size: 2rem;
+        text-decoration: none;
+        color: azure;
+        font-family: 'Caprasimo', serif;
+    }
+
+    & a:hover {
+        color: #bbbbbb;
+
+    }
+}
+
+#home {
+    position: relative;
+    background: url(./images/restaurant.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & h2 {
+
+
+        margin-top: 0;
+        font-size: 2.5rem;
+    
+    }
+
+    & a{
+        background-color: #d3d3d3;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        color: #1f1f1f;
+        text-decoration: none;
+    }
+}
+
+
+
+
